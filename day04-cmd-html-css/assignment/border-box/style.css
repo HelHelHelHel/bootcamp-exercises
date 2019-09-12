@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 18px;
+}
+body {
+    margin: 0;
+    background-image: url('grid.png');
+    height: 16rem;
+}
+.lorem {
+    display: inline;
+    background-color: orange;
+    padding: 1rem;
+    margin: 2rem;
+    height: 5rem;
+    width: 15rem;
+    
+}
+.lorem1 {
+    display: inline;
+    background-color: orange;
+    padding: 1rem;
+    margin: 1rem;
+    height: 5rem;
+    width: 15rem;
+    
+}
+header {
+    background-color: white;
+    padding: 1rem;
+}
+.banner {
+    background-image: url('download.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 200px;
+}
+.nav-link {
+    display: inline;
+
+}

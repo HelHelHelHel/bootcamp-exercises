@@ -1,0 +1,89 @@
+body {
+    margin: 0px;
+    font-family: Roboto, sans-serif;
+}
+header {
+    text-align: center;
+    background-color: #FFFFFF;
+    height: 0.1rem;
+    padding: 0.5rem;
+    
+}
+.nav-link {
+    display: inline;
+    color: #000000;
+    text-decoration: none;
+    padding: 1.5rem;
+}
+.banner {
+    
+    height: 40rem;
+    background: blue url('banner.jpg') center/cover no-repeat;
+}
+h1 {
+    color: #FFFFFF;
+    padding-top: 10rem;
+    padding-left: 16rem;
+    font-size: 4rem;
+    font-weight: 900;
+}
+.Belf {
+    color: #FFE964;
+}
+.Int {
+    color: #FF523D;
+}
+.Kin {
+    border-bottom: solid;
+}
+.K {
+    color: #223C88;
+}
+h2 {
+    font-weight: 900;
+    font-size: 2rem;
+}
+.mission {
+    background-color: #FFE964;
+    height: 13rem;
+    padding: 1rem 16rem;
+    text-align: center;
+
+}
+.about-us {
+    background-color: #FFFFFF;
+    height: 18rem;
+    padding: 1rem 16rem;
+}
+.our-team {
+    background-color: #FF523D;
+    height: 80rem;
+    padding: 1rem 16rem;
+    color:  #FFFFFF;
+}
+.team {
+    text-align: center;
+}
+.our-team p {
+    margin: 0;
+}
+h3 {
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+img {
+    padding-top: 2.5rem;
+    padding-bottom: 0.6rem;
+}
+.contact {
+    background-color: #223C88;
+    padding: 1rem 16rem;
+    color: #FFFFFF;
+}
+.contact  p {
+    margin: 0;
+}
+.address {
+    padding-bottom: 1rem;
+}
