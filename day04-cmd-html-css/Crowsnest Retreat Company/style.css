@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'From the Woods';
+    src: url('FromtheWoods-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+}
+body {
+    margin: 0;
+    min-height: 100vh;
+    background: white url('bg.jpg') center/cover no-repeat fixed;
+    color: white;
+}
+header h1 {
+    font-family: 'From the Woods', serif;
+      font-size: 5rem;  
+      letter-spacing: 5px;	
+      text-align: center;  
+}
+.container {
+    margin: 0 auto;
+    width: 40em;
+}
+.introduction {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 8rem;
+}
+.bubble {
+    width: 20rem;
+    height: 20rem;
+    border-radius: 10rem;
+    background-color: #4F6A13;
+    text-align: center;
+    color: white;
+    margin-top: -6rem;
+    padding: 2rem 3rem;
+}
+.bubble img {
+    width: 6rem;
+    height: 6rem;
+  }
+  .bubble h2 {
+      margin: 0;  
+      font-size: 1.3rem;
+  }
+  .b-right {
+	position: relative;  
+	left: 20rem;
+}
+.sign-up {
+  padding: 2rem 0;
+    margin-top: 4rem;
+    background-color: #2D4823;
+    color: #D3D3D3;
+}
+.sign-up h2 {
+    color: white;
+    text-align: center;
+}
+.sign-up p {
+    color: #d3d3d3;
+    text-align: center;
+}
