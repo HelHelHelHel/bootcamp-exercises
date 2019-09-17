@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Squada One', cursive;
+    font-size: 16px;
+    color: white;
+}
+
+body {
+    margin: 0;
+    background: black url('/img/got-bg.jpg') center/cover fixed;
+}
+
+h1 {
+    font-size: 5rem;
+
+   
+    
+}
+
+h2 {
+    font-size: 4rem;
+    
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+.write-up {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    padding: 2rem;
+
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.write-up .div1 {
+    align-self: flex-start;
+    h1,
+    h2 {
+        margin: 0;
+    }
+}
+
+.write-up .div2 {
+    align-self: flex-end;
+}
+
+h3 {
+    text-align: right;
+}
