@@ -4,6 +4,7 @@
     padding: 1rem;
     margin: 0;
     height: 50vh;
+    margin: 1rem 0;
     background: lightblue url('/img/welcome.jpg') center/cover fixed;
     
     h1 {
@@ -25,9 +26,9 @@
     
 }
 
-.plot {
-    display: flex;
-    flex-direction: column;
+section.plot { // no need for flexbox as the main axis is vertical and that's how the page aligns anyways.
+    // display: flex;
+    // flex-direction: column;
 
     h2 {
         text-align: center;
@@ -35,13 +36,14 @@
     }
 
     .description {
+        max-width: 800px;
+        margin: 0 auto;
+
         display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        padding: 2rem 10rem;
+    
         
         img {
-        padding: 1rem;
+        margin: 1rem;
         width: 10rem;
     }
         div {
@@ -66,8 +68,8 @@
     .characters__parent {
         display: flex;
         justify-content: center;
-        align-items: flex-end;
-        padding: 10rem 0 0 0;
+        align-items: center;
+        margin-top: 10rem;
 
         .small {
             width: 4rem;
@@ -197,13 +199,22 @@
 
         img {
             width: 8rem;
+            display: block;
         }
+
+        .cast__bottom {
+            position: relative;
+        
          .cast__bottom__text {
-             position: relative;
-             bottom: 0.3rem;
+             position: absolute;
+             bottom: 0;
+             left: 0;
+             width: 100%;
             //  right: 1rem;
+            text-align: center;
              background-color: rgba(43, 41, 41, 0.7);
              color: white;
+         }
 
          }
 
@@ -227,6 +238,7 @@
         flex-direction: row;
         justify-content: space-between;
         margin: 0;
+        padding: 0 1rem;
         position: relative;
         top: 30rem;
 

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <form action="https://classes.codingbootcamp.cz/assets/classes/request-visualization/script.php" method="post">
+        <input type="hidden" name="foo" value="bar">
+        <input type="submit" name="submit" value="Save">
+        <input type="submit" name="submit" value="Delete">
+        <input type="text" name="my_text" placeholder="your name" autofocus required autocomplete="off">
+        <textarea name="my_text" placeholder="hello there"> </textarea>
+        <label for="want_newsletter_checkbox">Check this out</label>
+        <input type="checkbox" name="binary" id="want_newsletter_checkbox" value="1" checked="checked">
+        <input type="hidden" name="happy" value="no">
+<input type="checkbox" name="happy" value="yes">
+<label for="gender_male">Male</label>
+<input type="radio" name="binary" value="1" id="gender_male" checked>
+<input type="radio" name="binary" value="0">
+<select name="color">
+    <option value="red87" selected="selected">The red color</option>
+    <option value="green">The green color</option>
+
+    <input type="text" name="personal-info[first name]" value="" />
+<input type="text" name="personal-info[last name]" value="" />
+
+</select>
+
+
+    </form>
+</body>
+</html>

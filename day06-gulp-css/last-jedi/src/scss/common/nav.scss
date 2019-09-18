@@ -6,15 +6,21 @@ nav {
     position: fixed;
     width: 100%;
     top: 0;
+    padding: 0.5rem;
 
     background-color: darkgray;
     
-    a { 
-        // float: left;
+    a { // nav a
+        
         display: inline-block;
         text-align: center;
-        padding: 1rem;
+        margin: 0.5rem;
         color: white;
         text-decoration: none;
+
+        &:hover {// nav a :hover
+            text-decoration: underline;
+            color: black;
+        }
     }
 }
