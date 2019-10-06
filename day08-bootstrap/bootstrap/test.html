@@ -1,0 +1,139 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>A Simple Bootstrap Page</title>
+ 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+ 
+    <div class="container min-vh-100">
+        <header class="row bg-dark text-light p-3 px-5">
+            <div class="col">Header</div>
+            <nav class="col-auto ml-auto">
+                <a href="#" class="text-primary mx-2 text-decoration-underline">Link 1</a>
+                <a href="#" class="text-white mx-2">Link 2</a>
+                <a href="#" class="text-white mx-2">Link 3</a>
+            </nav>
+        </header>
+        <main class="row h-100">
+ 
+            <div class="col-12 my-5 text-center">
+                <h1>A Simple Bootstrap Page</h1>
+            </div>
+ 
+            <div class="col-8">
+                <div class="media mb-4">
+                    <img class="mr-4" src="https://getbootstrap.com/docs/4.0/assets/brand/bootstrap-solid.svg" alt="">
+                    <div class="media-body">
+                        <h2>Bootstrap</h2>
+                        <p class="lead">Bootstrap makes it very simple to design simple, typical layouts. It is the most popular CSS framework in the world.</p>
+                        <p>To begin learning Bootstrap, start by reading through its documentation.</p>
+                    </div>
+                </div>
+ 
+            </div>
+ 
+            <aside class="col-4">
+                <h4>Useful links</h4>
+                <ul class="list-group">
+                    <li class="list-group-item">
+                        <a href="https://getbootstrap.com/docs/4.3/getting-started/download/">Get Bootstrap</a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="https://getbootstrap.com/docs/4.3/getting-started/introduction/">Documentation</a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="https://trypap.com/">Passive aggresive password machine</a>
+                    </li>
+                </ul>
+            </aside>
+ 
+        </main>
+        <div class="row">
+            <div class="col-6">
+                <p>Now thats all I wanted to say, so let's go for some Lorem Ipsum.</p>
+ 
+                <p>Dolore ad irure excepteur laborum non adipisicing ex tempor. Sit do nostrud est excepteur quis cupidatat quis adipisicing consectetur. Ut culpa ut ex amet quis amet incididunt anim consectetur dolor esse deserunt tempor duis. Cillum voluptate deserunt Lorem eu dolore minim ex nulla ea fugiat nisi. Adipisicing consequat ea cupidatat culpa esse non tempor do incididunt magna.</p>
+ 
+                <p>Esse laboris incididunt aute elit. Consectetur eiusmod tempor aliquip laboris elit amet dolore. Laboris laborum occaecat eiusmod cillum velit est nostrud aliquip ipsum consequat Lorem excepteur. Ad nisi nisi sunt esse et exercitation laborum voluptate est minim.</p>
+            </div>
+            <div class="col-6 mt-4">
+                <h2>Leave a comment</h2>
+ 
+                <form action="" method="post">
+                    <div class="form-group">
+                        <label for="name">Your name</label>
+                        <input type="text" class="form-control" name="name" id="name" placeholder="Put your name here">
+                        <small class="form-text text-muted">Yes, your real name, sweetheart</small>
+                    </div>
+ 
+                    <div class="form-group">
+                        <label for="text">What is on your mind?</label>
+                        <textarea name="text" id="text" class="form-control" rows="5"></textarea>
+                    </div>
+ 
+                    <div class="form-group">
+                        <button class="btn btn-primary">Send</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+ 
+</body>
+</html>
+Including Bootstrap
+Bootstrap can be included into your page in 3 ways:
+
+It can be loaded straight from Bootstrap CDN:
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+It can be downloaded, put into your project and linked simply with a relative URL:
+<link rel="stylesheet" href="/css/bootstrap.min.css">
+<script src="/js/bootstrap.min.js"></script>
+It can be loaded as a module using NPM and then imported into your own SCSS files. This is also the recommended way of modifying it, extending it, optimizing it and creating your own themes.
+@import "../../node_modules/bootstrap/scss/bootstrap";
+Bootstrap Contents
+What does actually Bootstrap consist of?
+
+Reboot - a set of rule that standardizes element behaviour across browsers. Including this makes sure that styling in all browsers starts from the same point.
+Grid - the layout part of Bootstrap, allowing to create simple, grid-based, responsive page layouts.
+Components - various components providing useful styling to common website elements such as buttons, forms, lists, navigation, tooltips etc.
+Utilities - utility classes that you can apply to almost any element, removing the need to write any CSS. These include styles for borders, colors, display, floating, positioning, spacing, alignment and many others.
+Bootstrap javascript
+To provide functionality to some of its components, Bootstrap also needs some JavaScript libraries.
+
+Those are built upon the jQuery library so it needs to be included as well.
+
+Furthermore, Bootstrap popups are utilizing the Popper.js library so if you plan to use them, that library needs to be included as well.
+
+You can find links to download or include all of these files on Bootstrap's download page: https://getbootstrap.com/docs/4.3/getting-started/download/
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+Note: these scripts need to be included before bootstrap.
+
+Bootstrap versions
+Bootstrap is always evolving and new versions are not always backwards compatible with the old ones.
+
+Always when working with Bootstrap check the version of the documentation you are using as reference.
+
+The current version of Bootstrap (September 2019) is 4.3
+
+Bootstrap requirements
+Bootstrap 4 should run flawlessly on any modern browser including IE11 and Edge.
+
+Make sure to have the responsive meta tag in the head of the HTML document:
+
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+Previous:
+Morning Workout: A Coffee Heaven
+Next:
+Bootstrap Utilities
+Bootstrap #1
+© 2019 Data4You All rights reserveddata4you

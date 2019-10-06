@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+
+}
+ html {
+     font-family: sans-serif;
+     font-size: 18px;
+}
+
+.bookList {
+    display: flex;
+    flex-direction: row;
+    min-width: 60vh;
+    margin: 0 auto;
+    background-color: pink;
+}
+.bookItem {
+    display: flex;
+    flex-direction: column; 
+    background-color: lightskyblue;
+    margin: 2rem;
+}
+
+.addBookForm {
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    
+  }
+
+

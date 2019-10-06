@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+    
+}
+
+html {
+    font-family: sans-serif;
+}
+  
+body {
+    background: #ddd;
+}
+
+.convo {
+    display: flex;
+    flex-direction: column;
+}
+
+.remote  { 
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.local {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.local .text {
+    background: blue;
+    color: white;
+}
+  
+.remote .text {
+    background: #555;
+}
+
+
+.chat {
+    width: 25rem;
+    background: white;
+    margin: 4rem auto;
+    border-radius: 4px;
+    min-height: 4rem;
+    padding: 1rem;
+  }
+  
+.message {
+    display: flex;
+    margin-bottom: 0.5rem;
+}
+
+.head {
+    flex: 0 0 auto;
+    width: 3rem;
+    height: 3rem;
+  }
+  
+  .head > img {
+    width: 100%;
+    height: auto;
+  } 
+  
+  .text {
+    flex: 0 0 auto;
+    max-width: 14rem;
+    padding: 1rem;
+    border-radius: 4px;
+    margin: 0 0.5rem 0.5rem 0.5rem;
+  }
+  

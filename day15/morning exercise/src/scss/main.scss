@@ -1,0 +1,32 @@
+$red: #ff0000;
+ 
+html {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 0.875em;
+}
+
+body {
+    margin: 0;
+    
+    background-color:black;
+    padding: 10rem;
+}
+
+.white {
+    background-color: white;
+    display: flex;
+    padding: 2rem;
+    align-items: center;
+}
+
+img {
+    width: 20rem;
+}
+
+.text {
+    align-self: center;
+    transition: 2s;
+}
+.hidden {
+    opacity: 0;
+}

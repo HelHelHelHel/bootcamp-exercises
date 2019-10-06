@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+.snail-racer {
+  width: 160px;
+  position: relative;
+
+  margin-left: 50px;
+}
+
+.snail {
+  width: 100%;
+  height: auto;
+  position: absolute;
+}
+
+.snail__body {
+  fill: #b3a402;
+}
+
+.snail__shell {
+  fill: rgb(255, 0, 242);
+}
+
+.snail-racer__name {
+  font-weight: bold;
+  text-align: center;
+  font-size: 120%;
+}
