@@ -95,21 +95,22 @@
 // 	document.getElementById('result').innerHTML = parseFloat(num1) + parseFloat(num2);
 // }
 
-let add = () => {
-	let num1 = document.querySelector('#firstNumber').value;
-	let num2 = document.querySelector('#secondNumber').value;
+// let add = () => {
+// 	let num1 = document.querySelector('#firstNumber').value;
+// 	let num2 = document.querySelector('#secondNumber').value;
 	
-result = parseFloat(num1) + parseFloat(num2);
+// result = parseFloat(num1) + parseFloat(num2);
 	
-	console.log(result);
+// 	console.log(result);
 	
-}
+// }
 
 
-document.addEventListener('DOMContentLoaded', () => {
-const btn = document.querySelector('#add');
+// document.addEventListener('DOMContentLoaded', () => {
+// const btn = document.querySelector('#add');
 
 
-btn.addEventListener ('click', add());
+// btn.addEventListener ('click', add());
 
-});
+// });
+

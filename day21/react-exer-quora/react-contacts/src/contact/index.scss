@@ -1,0 +1,13 @@
+.quest {
+  margin-bottom: 1rem;
+  background-color: salmon;
+  padding: 1rem;
+  color: white;
+
+  &__type {
+    text-decoration: underline;
+  }
+  &__answer{
+    color: black;
+  }
+}

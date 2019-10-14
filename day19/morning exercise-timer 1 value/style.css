@@ -11,6 +11,10 @@ body {
     
 }
 
+.timer {
+    display: flex;
+}
+
 .resetBtn,
 .start {
     margin: 3rem;

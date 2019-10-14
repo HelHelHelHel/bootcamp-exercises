@@ -174,15 +174,19 @@ console.log('it works');
 //  }
 //  console.log(board);
 
-const numbers = [18, 8, -24, 28, -17, 14, -10, 24, 12, -31, 19, 32, -14, -10, 13, 8, -15, -2, 17];
+// const numbers = [18, 8, -24, 28, -17, 14, -10, 24, 12, -31, 19, 32, -14, -10, 13, 8, -15, -2, 17];
 
 // console.log(numbers.length);
+
 // console.log(numbers[13]);
+
 // let middle = Math.floor(numbers.length / 2);
 // console.log (numbers[middle]);
+
 // for(const number of numbers){
 //     console.log(number);
 // }
+
 // for(const number of numbers){
 //     console.log(number*number);
 // }
@@ -217,7 +221,6 @@ const numbers = [18, 8, -24, 28, -17, 14, -10, 24, 12, -31, 19, 32, -14, -10, 13
 // }
 
 // for (let i = 0; i < numbers.length; i++) {
-
 //     let greatest = [];
 //     if (numbers[i - 1] < numbers[i] && numbers[i] > numbers[i + 1]) {
 //         greatest.push(numbers[i]);
@@ -234,9 +237,91 @@ const numbers = [18, 8, -24, 28, -17, 14, -10, 24, 12, -31, 19, 32, -14, -10, 13
     console.log(neg.length)
 } */
 
-numbers.reduce(func);
+// const sum = numbers.reduce((total, sum) => total + sum);
+// console.log(sum);
+
+// const sum = numbers.reduce( (total, sum) => total + sum);
+// const av = sum / numbers.length;
+// console.log(av);
+
+// const mx = Math.max.apply(null, numbers);
+// console.log(mx);
+
+// find longest increasing sub-array:
+
+
+
+
+
+
+
+
+// numbers.sort((a,b)=> b - a);
+// console.log(numbers[1]);
+
+// reverse an array and keep the old one intact
+// let rever = numbers.slice().reverse();
+// console.log(numbers);
+
+
+
+// for (let i = 0; i < numbers.length; i++) {  
+//     if (numbers[i - 1] < numbers[i] && numbers[i] > numbers[i + 1]) {
+//         numbers.push(numbers[i]);
+        
+//         let max = numbers.reduce((a, b) => {
+//         return Math.max(a,b);
+//     });
+//     console.log(max);
+//     }
+// }
+
+// numbers.reverse();
+// console.log(numbers);
+
+// numbers.sort((a, b) => Math.random() - Math.random());
+// console.log(numbers);
+
+// numbers.sort((a,b) => a-b);
+// console.log(numbers);
+
+
+
+// shoppinglist array
+// const shoppingList = [
+//     { name: 'apples', amount: '1kg'}, 
+//     { name: 'bananas', amount: '2kg'},
+//     { name: 'cheese', amount: '20dkg'},
+// ];
+
+// document.addEventListener('DOMContentLoaded', () => {
+//   const listElm = document.querySelector('.shopping-list');
+
+//   for(const item of shoppingList) {
+//     const html = (
+//         `<div class="shopping-list__item">
+//         <span>${item.name}</span>
+//         <span>${item.amount}</span></div>`
+//     );
+//     listElm.innerHTML += html;
+// }
+
+
+//   const btn = document.querySelector('#add');
+//   btn.addEventListener('click', () => {
+//     const nameInp = document.querySelector('#name');
+//     const amountInp = document.querySelector('#amount');
+//     shoppingList.push({ name: nameInp.value, amount: amountInp.value});
+//     console.log(shoppingList);
     
-const func = (total, num) => {
-return total + num;
-console.log(func);
-}
+    
+       
+       
+//   });
+// });
+
+ 
+const len = ([5, 4, 3, 2]) => len.length;
+
+console.log(len);
+    

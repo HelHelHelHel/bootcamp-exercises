@@ -25,7 +25,10 @@ body {
   margin-left: 4rem;
   margin-top: 1rem;
   background-color: aqua;
+  opacity: 1;
 }
+
+
 
 span {
   padding: 1rem;

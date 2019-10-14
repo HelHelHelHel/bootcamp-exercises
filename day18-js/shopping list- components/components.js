@@ -6,6 +6,7 @@ class ShopItem {
       this.name = name;
       this.amount = amount;
       this.unit = unit;
+      this.opacity = 1;
       
     }
 
@@ -44,12 +45,11 @@ class ShopItem {
            this.increment();    
         });
 
-        // const hideBtn = this.element.querySelector('#hideBtn');
-        // hideBtn.addEventListener('click', () => {
-        // const shoppingItem = this.element.querySelector('.shopItem');
-        // shoppingItem.classList.remove('shopItem');
-
-        // });
+        const hideBtn = this.element.querySelector('#hideBtn');
+        hideBtn.addEventListener('click', () => {
+          console.log('hello');
+          this.opacity = 0;
+        });
 
         this.update();
     }
@@ -62,7 +62,7 @@ class ShopItem {
     update() {
       const amountCounter = this.element.querySelector('#amountCounter ');
       amountCounter.textContent = `${this.amount}`;
-      
+      this.element.style.opacity = `${this.opacity}`;
     };
 
 }
