@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(249, 228, 232);
+}
+
+html {
+    font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+    color: rgb(171, 1, 1);
+}
+
+.form {
+    .movie {
+        display: flex;
+        img {
+            max-width: 10em;
+            max-height: 15em;
+        }
+    }
+}
